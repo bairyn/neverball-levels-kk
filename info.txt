@@ -1,0 +1,461 @@
+Snapshot of http://forum.nevercorner.net/viewtopic.php?id=1202 on 2015-10-10.
+2007-10-18 23:25:42 (edited by Krabby Krap 2008-02-07 19:02:28)
+
+(Download Current Version - v3.1)
+
+
+Download Krabby Krap's level set
+
+Download zip            - hosted by RapidShare                       - v3.1 - zip
+Download tar.gz        - hosted by RapidShare                       - v3.1 - tar.gz
+___
+
+
+
+News
+
+- Stable released
+- The precompiled maps in the eighth beta will not work and need to be recompiled if the Neverball version you are using does not contain the smooth path patch.  Please either recompile the maps using your mapc or wait for the Revision with the patch implemented to be released, if so.  The patch has been confirmed to be implemented
+- [url=http://www.nevercorner.net/forum/viewtopic.php?pid=13861#p13861]The seventh beta is Neverball 
+>=1.5SVNR1209 compatible only[/url]
+- Currently known problem in v2.0b7: ABSENTMAPS contains invalid value: bgold needs to be changed correctly to bplatfrom - fixed and will be part of next version
+- The fourth and fifth beta has ghosted floors in level 13.  Please use the replacement when downloading - Please note: this replacement is only temporary and has many problems fixed in the sixth beta
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Replays
+
+Elviz
+-Amazing replay performed by Elviz! - bgold
+-Another amazing replay performed by Elviz! - bgold
+Post the link of your own replay and I'll add yours to the list!
+___
+
+
+
+
+
+
+
+
+
+
+Currently known problems
+
+None
+___
+
+
+
+Changelog
+
+3.0
+-Many improvements
+2.7
+-General improvements
+2.6
+-Updated song in btrap
+-Replaced sgreathall with sspiralrise2
+-Improved sspiralrise2
+2.5
+  -Added and replaced scaution with smultiplatform
+  -Many bug fixes and improvements
+2.4
+-Updated special goals
+-Updated smultiplatform
+-Fixed side of Y in bconfisuion
+-Added map sstraightspiralrise
+-Fixed several textural issues
+-Updated sfinal, level no longer requires chance!
+-Swapped low-quality smultiplatform2 with splatform
+-Updated "over-curve"s in sfinal
+-Updated all shots
+-Many bug fixes
+2.3
+-Reduced coin limit to 100 in sboxslide2
+-Added sfun2 and sspiralrise2
+-Note: compatible with object update
+2.2
+-An overall improvement along with a few textural fixes
+2.1.1
+-Resied all images
+-Updated coin limit in soutofworld2
+2.1
+-Fixed structural goal base lump in soutofworld
+-Added background to soutofworld2
+-Updated intermission in soutofworld2
+-Updated message in sfinal
+2.0
+-A few touch-ups
+2.0RC1
+-Texture clean-up
+-Added more realism to sfun
+2.0b8
+-Added final compatibility change: all textures marked as "jump" set to
+    "teleporter"
+-Fixed ABSENTMAPS
+2.0b7
+-Only changes except for README update stated below
+    are compatibility changes for R1029.  If you are using Neverball
+    <=v1.5SVNR1028 please recompile the maps or simply use v2.0b6
+    (Note: Neverball >=v1.5SVNR1028 has removed turf-shiny-bright.  Changing
+    all turf-shiny-bright to turf-shiny is a compatibility change included in
+    this version.  If you are running R1028, you would be well advised to use
+    v2.0b7; recompiling needed if so while using <=v1.5SVNR1028)
+-README has been updated with better supporting information for the two extra
+    levels, bplatform and splatform2
+2.0b6
+-Added two maps which, unfortunately, cannot be played with an unmodified
+    set-kk.txt because of the 25-level limit
+-Slightly adjusted blue coin in soutofworld2 so it can be earned a little
+    easier
+-Swapped level 3 and 4 (sfun and sfallandrise)
+-Unghosted floors in sdeathhouse (level 13)
+-Many other final touchups to improve visuality
+2.0b5
+-Adding final touches to prepare for official release
+-Fixed a typo in CHANGELOG
+-Properly aligned set-kk introductory message
+-Adjusted a few introductory messages
+-Finally added coin pads to all levels
+-Added easter eggs; each secret area spells out "EASTER".  Please take caution
+    saving replays using these areas
+2.0b4
+-Added ABSENTMAPS
+-Map name is now standard in CHANGELOG
+-Fixed typos in CHANGELOG
+-Readjusted sboxslide2 and stored old sboxslide2 as soldboxslide2
+-Reordered levels
+-Readjusted author to proper value in every level and set-kk.txt
+-Rotated sdeathhouse to accommodate for the starting camera position
+-Fixed misaligned arrow in sspiralrise
+-Fixed oversized goal in comparison to base in scurly
+-Replaced ssearch's slot (originally moved to slot level 2 before moving) with
+    sfun
+2.0b3
+-Fixed shot in all levels necessary
+-Fixed textural issues
+-Fixed CHANGELOG~ in package by removal
+-Slightly lowered lumps surrounding goal in level 1
+-Swapped level 10 and 11
+-Changed song to proper value in level 11
+-Added additional detailed arrow in (v2.0b2)level 14
+-Widened rail in (v2.0b2)level 14
+-Moved (v2.0b2)level 14 to to earlier level due to difficulty change
+-Fixed z-fight in (v2.0b2)level 17
+-Reduced number of lumps in (v2.0b2)level 17
+-Fixed triangular edged lump in (v2.0b2)level 17
+2.0b2
+-Added 'b' to inform user the of the correct beta stage changes in CHANGELOG
+-Fixed all teleporters
+-Brought back from the dead in brail2
+-Raised two coins in level 1
+-Readjusted water in level 3
+-Fixed missing jpg in level 5
+-Added coins and widened final path in level 7
+-Fixed goal of 3 to 30 in level 8
+-Made all rails visible in level 14
+-Level is now playable - level 20
+2.0b
+-Many changes that once again I didn't keep track of.  It would be too large
+    anyway.  The main difference you'll notice is that it's
+    Neverball(>)=v1.5.0 compatible only
+1.7
+-Enlarged ramp in level 14
+-Fixed teleporter issue in level 21
+-Fixed thwomp issue in level 22
+-The entire set is now hopefully, preferabally, probably bug-free!!  No
+    more, almost surely, versions
+1.6
+-Fixed abv kki by changing to kkls
+-Set the goal base decal as detail in level 18
+-Fixed crooked curve in level 19
+-Adjusted teleporter in level 19
+-Is hopefully the last version in a while!!
+1.5.1
+-Fixed five lumps which were accidentally raised sixteen units in level 17
+1.5
+-Innumerable changes I can't remember off the top of my head.  It's
+    finished, anyhow
+1.4
+-KKLS is now stable - you shouldn't have to worry about another version soon!
+-Added CHANGELOG and changelog.txt in package
+-Added Windows installer kki.exe in package
+-Updated README and readme.txt
+-Fixed teleporter halo and goal misalignment in level 1
+-Fixed off-eight-grid teleporter problem in level 1
+-Raised two bottom planes and reduced the slope of middle plane - level now
+    winnable without aa - in level 3
+-Made flat thwomps closer - level now winnable without freestyling - in level
+    3
+-Enlarged decal to match the goal with the base in level 10
+-Changed the music to an appropriate match with level
+1.3
+-The total values are now correct in the first line in scores.txt
+-The word "TOTAL" is now properly aligned with the rest of the collumn in
+    scores.txt
+-All coins are now worth their true visible value, fixed problems in levels
+    18 and 23
+-Added backs to necessary bumps in level 7
+-Ramp texturing is now fixed in level 7
+-Enlarged goal base - halo is same size - to match halo in level 7
+-Adjusted medium and hard scores so they can be matched in level 8
+-Fixed time issue by adding time in level 9
+-Added a blue coin in level 9
+-Gave level 21 it's proper jpg
+-Removed coin duplication and ugly coin dump in level 23
+-Adjusted first jump - it no longer requires chance! - in level 24
+1.2
+-Fixed teleportation/switch lower than decal problem in levels 1, 4, 5, 6,
+    7, 9, 12, 16, 17, 19, 24 and 25
+-Changed message in level 1
+-Fixed speed problem in level 2
+-Fixed goal misalignment in level 2
+-Added more time from 30 seconds to 90 seconds in level 25
+1.1
+-Fixed alignment problems in level 1
+-Replaced 21 with level 2 and added easier version of level 2
+1.0
+-Initial public release
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All available downloads
+
+
+Download v3.1 - hosted by RapidShare - tar.gz
+Download v3.1 - hosted by RapidShare - zip
+Download v3.0 - hosted by RapidShare - tar.gz
+Download v3.0 - hosted by Upload2 - tar.gz
+Download v3.0 - hosted by RapidShare - zip
+(v2.6-2.8 No longer available)
+Download v2.5 - hosted by RapidShare - tar.gz
+Download v2.5 - hosted by RapidShare - zip
+Download v2.4 - hosted by RapidShare - tar.gz
+Download v2.4 - hosted by BestSharing - tar.gz
+Download v2.4 - hosted by RapidShare - zip
+ChallangeSpaceYard | Download v2.3 - hosted by site - v2.3 - multipackage - Many thanks for hosting, ChallengeSpaceYard!
+Download v2.3 - hosted by BestSharing - tar.gz
+Download v2.3 - hosted by RapidShare - zip
+Download v2.2 - hosted by RapidShare - tar.gz
+Download v2.2 - hosted by BestSharing - tar.gz
+Download v2.2 - hosted by RapidShare - zip
+Download v2.1.1 - hosted by RapidShare - tar.gz
+Download v2.1.1 - hosted by BestSharing - tar.gz
+Download v2.1 - hosted by RapidShare - tar.gz
+Download v2.1 - hosted by BestSharing - tar.gz
+Download v2.1 - hosted by Upload2 - tar.gz
+Download v2.0 - hosted by RapidShare - tar.gz
+Download v2.0 - hosted by BestSharing - tar.gz
+Download v2.0 - hosted by Upload2 - tar.gz
+Download v2.0rc1 - hosted by RapidShare - tar.gz
+Download v2.0rc1 - hosted by BestSharing - tar.gz
+Download v2.0b8 - hosted by RapidShare - tar.gz
+Download v2.0b8 - hosted by BestSharing - tar.gz
+Download v2.0b7 - hosted by RapidShare - tar.gz
+Download v2.0b7 - hosted by BestSharing - tar.gz
+!Download v2.0b6 - hosted by RapidShare - tar.gz
+!Download v2.0b6 - hosted by BestSharing - tar.gz
+!!-Download v2.0b5 - hosted by RapidShare - tar.gz
+!!-Download v2.0b5 - hosted by BestSharing - tar.gz
+!!-Download v2.0b4 - hosted by RapidShare - tar.gz
+!!-Download v2.0b4 - hosted by BestSharing - tar.gz
+!!-*Download v2.0b4 - hosted by 35mb - tar
+!!-*Download v2.0b4 - hosted by 35mb - tar.bz2
+!!!Download v2.0b3 - hosted by RapidShare - tar.gz
+!!!Download v2.0b3 - hosted by BestSharing - tar.gz
+!!!Download v2.0b3 - hosted by Upload2 - v2.0b3 - tar.gz
+!!!*Download v2.0b3 - hosted by 35mb - tar.bz2
+!!!*Download v2.0b3 - hosted by 35mb - tar
+!!!!Download v2.0b2 - hosted by RapidShare - tar.gz
+!!!!Download v2.0b2 - hosted by BestSharing - tar.gz
+!!!!Download v2.0b2 - hosted by 35mb - tar
+!!!!Download v2.0b2 - hosted by 35mb - tar.bz2
+!!!!-Download v2.0b - hosted by BestSharing - tar.gz
+!!!!-Download v2.0b - hosted by RapidShare - tar.gz
+!!!!-Download v2.0b - hosted by RapidShare - tar
+!!!!-*Download v2.0b - hosted by 35mb - tar.gz
+!!!!-*Download v2.0b - hosted by 35mb - tar.bz2
+!!!!!-Download version 1.7 - hosted by BestSharing - tar.gz
+!!!!!-Download version 1.7 - hosted by BestSharing - tar
+!!!!!-Download version 1.7 - hosted by RapidShare - tar.bz2
+!!!!!-Download version 1.7 - hosted by RapidShare - tar.gz
+!!!!!-Download version 1.7 - hosted by RapidShare - zip
+!!!!!-Download version 1.7 - hosted by RapidShare - tar.gz
+!!!!!-*Download version 1.7 - hosted by 35mb - tar.gz
+!!!!!-*Download version 1.7 - hosted by 35mb - zip
+!!!!!-Download version 1.6 - hosted by BestSharing - tar.gz
+!!!!!-Download version 1.6 - hosted by BestSharing - tar
+!!!!!-Download version 1.6 - hosted by BestSharing - tar.bz2
+!!!!!-Download version 1.6 - hosted by BestSharing - tar
+!!!!!-Download version 1.6 - hosted by BestSharing - zip
+!!!!!-Download version 1.6 - hosted by Upload2 - tar.gz
+!!!!!Download version 1.5.1 - hosted by BestSharing - tar
+!!!!!Download version 1.5.1 - hosted by BestSharing - zip
+!!!!!Download version 1.5 - hosted by BestSharing - tar
+!!!!!Download version 1.5 - hosted by BestSharing - tar
+!!!!!Download version 1.5 - hosted by BestSharing - zip
+!!!!!Download version 1.5 - hosted by Upload2 - tar
+!!!!!Download version 1.5 - hosted by Upload2 - zip
+!!!!!*Download version 1.5 - hosted by 35mb - tar
+!!!!!*Download version 1.5 - hosted by 35mb - zip
+!!!!!!Download version 1.4 - hosted by BestSharing - tar
+!!!!!!Download version 1.4 - hosted by BestSharing - zip
+!!!!!!Download version 1.4 - hosted by BestSharing - tar
+!!!!!!Download version 1.4 - hosted by Upload2 - tar
+!!!!!!Download version 1.4 - hosted by Upload2 - zip
+!!!!!!*Download version 1.4 - hosted by 35mb - tar
+!!!!!!*Download version 1.4 - hosted by 35mb - zip
+!!!!!!Download version 1.3 - hosted by BestSharing - tar
+!!!!!!Download version 1.2 - hosted by BestSharing - tar
+!!!!!!Download version 1.2 - hosted by Upload2 - tar
+!!!!!!Download version 1.1 - hosted by BestSharing - tar
+!!!!!!Download version 1.0 - hosted by BestSharing - tar
+!!!!!!Download version 1.0 - hosted by Upload2 - tar
+!!!!!!*Download version 1.0 - hosted by 35mb - tar
+!=Incompatible / level of incompatibility
+-=At least one unbeatable level
+*=Reported as broken
+Note: <=v1.7 is 1.4 compatible only. =v2 is 1.5 compatible only
+___
+
+
+
+
+Replacements
+
+v2.0b5
+-sgiantshouse
+v2.0b4
+-sgiantshouse
+___
+
+
+
+
+
+
+
+
+
+
+Description
+
+Enjoy this level set, as the difficulty noticeably increases with a balancing mixture of puzzle and action packed levels!
+___
+
+
+
+
+
+
+
+
+Outdated miscellaneous information
+
+Please report any problems you discover!
+v1: 5 10 15 20 and 25 are all bonus levels which will become "actual bonus levels" when adapting to the SVN/1.5 version.  24 is the actual last level
+v1: The tar.gz file comes with an automatic installer with source for Linux users.  There is a README with installation instructions for Windows instructions.
+___
+
+
+
+
+
+
+
+To upgrade to a later version <=v1.7
+
+Upgrading to a later version will not cause you to lose you're level and replay progress
+Manual: Copy the contents of the data directory from the package to the root directory of Neverball and you're finished!
+Automatic: Run kki/kki.bin supplied in the package and follow on-screen instructions.  More details:
+The Krabby Krap level set comes with an automatic installer with binary and source.  Run the kki/kki.bin supplied in the package.  If you encounter problems, run kkicompile.sh to recompile from the source.  When prompted to Install, Update, or Cancel, input "U" without quotes.  When prompted for the Neverball directory, input "default" or if non-standard input the directory with the trailing '/' truncated.  Please wait patiently for the level set to be installed
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Screenshots - outdated v1 - will be updated soon!
+
+shighroad - my personal favorite level (taken in v1.0a12 - final alpha stage of version 1):
+http://www.imagehosting.com/out.php/i1272311_m18.jpg
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thanks and conclusion
+
+Huge thanks to penma for help, Mehdi for inspiration of level design, Dave for his kind, positive attitude, parasti for his developer skills and help, themacmeister for driver support, ChallengeSpaceYard for additional hosting, and, of course, Robert Kooima for Neverball entirely!
+Drop me a line at KrabbyKrap at gmail dot com
+___
+
+
+
+
+Enjoy!!
+
